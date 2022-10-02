@@ -13,16 +13,11 @@ def binary_search(list1, key):
     return -1
 
 
-def main():
-    list1 = [1, 2, 3, 4, 5, 6, 7]
-    print('List:', list1)
-    key = int(input("Enter the key: "))
-    res = binary_search(list1, key)
-    if res == -1:
-        print("Element not found!")
-    else:
-        print("Element found at:", res)
-
-
-if __name__ == "__main__":
-    main()
+list1 = [1, 2, 3, 4, 5, 6, 7]
+print('List:', list1)
+key = int(input("Enter the key: "))
+res = binary_search(list1, key)
+if res == -1:
+    print("Element not found!")
+else:
+    print("Element found at:", res)
